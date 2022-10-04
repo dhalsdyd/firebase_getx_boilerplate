@@ -11,22 +11,8 @@ class HomePageController extends GetxController with StateMixin {
     isLogged.toggle();
   }
 
-  Stream<List<Video>> lista() {
-    Stream<QuerySnapshot> stream =
-        Firestore.instance.collection('videos').snapshots();
-
-    return stream.map((qShot) => qShot.documents
-        .map((doc) => Video(
-            title: doc.data['title'],
-            url: doc.data['url'],
-            datum: doc.data['datum']))
-        .toList());
-  }
-
   @override
   void onInit() {
-    list.bindStream(lista());
-
     //만약 hasToken이 false라면, isLogged에 변화는 없을 것입니다. 그러면 ever()는 호출되지 않을 것입니다. 이런 동작을 피하기 위해서, .value가 동일한 값으로 변경되더라도 observable 의 첫 변경은 이벤트를 발생시킬 것입니다.
     ever(isLogged, fireRoute);
     isLogged.firstRebuild = false;
