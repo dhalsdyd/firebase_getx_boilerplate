@@ -13,13 +13,6 @@ dependencies:
   # Model View Controller Plugin
   get: ^4.6.5
 
-  # Firebase Plugin
-  firebase_core: ^1.19.1
-  firebase_auth: ^3.4.1   # - Auth
-  firebase_storage: ^10.3.1   # - Storage
-  firebase_messaging: ^11.4.4   # - FCM
-  flutter_local_notifications: ^9.6.1
-  cloud_firestore: ^3.2.1   # - Firebase Document Database
 
   # Local Database
   get_storage: ^2.0.3   
