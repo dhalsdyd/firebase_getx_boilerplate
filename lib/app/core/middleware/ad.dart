@@ -7,8 +7,6 @@ class MiddleWare {
     /// you must specify that the event is != Than you are trying to do.
     if (routing.current == '/second' && !routing.isDialog!) {
       Get.snackbar("Hi", "You are on second route");
-    } else if (routing.current == '/third') {
-      print('last route called');
-    }
+    } else if (routing.current == '/third') {}
   }
 }
