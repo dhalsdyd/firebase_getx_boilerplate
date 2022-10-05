@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class AppColorTheme {
+abstract class FGBPColors {
   /// Main Color
   static const mainColor = Colors.amber;
 
