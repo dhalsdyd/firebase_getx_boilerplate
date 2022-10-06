@@ -16,12 +16,8 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Text("Hello World!!!", style: AppTextTheme.bold20),
-            const SizedBox(height: 8),
-            FGBPTextField(textController: textEditingController),
-            const SizedBox(height: 8),
-            const FGBPTextButton(text: "Hello", radius: 10),
+          children: const [
+            Text("Hello World!!!", style: FGBPTextTheme.bold20),
           ],
         ),
       )),
