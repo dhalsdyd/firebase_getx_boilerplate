@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title> TEST </title>
+        <!-- Android -->
+        <item>
+            <title>v1.1.0</title>
+            <description>TEST</description>
+            <pubDate>Tue, 04 Apr 2023 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.develop.test" sparkle:version="1.1.0" sparkle:os="android" />
+        </item>
+        <item>
+            <title>v1.0.5</title>
+            <description>TEST</description>
+            <pubDate>Fri, 17 Mar 2023 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.develop.test" sparkle:version="1.0.5" sparkle:os="android" />
+        </item>
+        <item>
+            <title>v1.0.4</title>
+            <description>TEST</description>
+            <pubDate>Fri, 21 Oct 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.develop.test" sparkle:version="1.0.4" sparkle:os="android" />
+        </item>
+        <item>
+            <title>v1.0.3</title>
+            <description> TEST </description>
+            <pubDate>Tue, 13 Oct 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.develop.test" sparkle:version="1.0.3" sparkle:os="android" />	
+        </item>	
+        <!-- IOS -->
+        <item>
+            <title>v1.1.0</title>
+            <description>TEST</description>
+            <pubDate>Tue, 04 Apr 2023 12:00:00 +0000</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.develop.test" sparkle:version="1.1.0" sparkle:os="android" />
+        </item>
+        <item>
+            <title>v1.0.5</title>
+            <description>TEST</description>
+            <pubDate>Fri, 17 Mar 2023 12:00:00 +0000</pubDate>
+            <enclosure url="https://apps.apple.com/app/id0000" sparkle:version="1.0.5" sparkle:os="ios" />
+        </item>
+        <item>
+            <title>v1.0.4</title>
+            <description>TEST</description>
+            <pubDate>Fri, 21 Oct 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://apps.apple.com/app/id0000" sparkle:version="1.0.4" sparkle:os="ios" />
+        </item>
+        <item>	
+            <title>v1.0.3</title>
+            <description> TEST </description>
+            <pubDate>Tue, 13 Oct 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://apps.apple.com/app/id0000" sparkle:version="1.0.3" sparkle:os="ios" />	
+        </item>	
+
+    </channel>	
+</rss>	
