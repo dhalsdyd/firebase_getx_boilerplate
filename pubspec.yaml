@@ -55,6 +55,10 @@ dependencies:
   uuid: ^3.0.6
   permission_handler: ^10.0.2
   flutter_secure_storage: ^6.0.0
+  upgrader: ^8.2.0
+  in_app_review: ^2.0.8
+  connectivity_plus: ^5.0.1
+  
   
 
 dev_dependencies:
