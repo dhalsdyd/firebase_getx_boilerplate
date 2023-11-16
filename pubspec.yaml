@@ -14,8 +14,8 @@ dependencies:
   get: ^4.6.5
 
   # Firebase Plugin
-  firebase_core: ^1.19.1
-  firebase_auth: ^3.4.1   # - Auth
+  # firebase_core: ^1.19.1
+  # firebase_auth: ^3.4.1   # - Auth
   firebase_storage: ^10.3.1   # - Storage
   firebase_messaging: ^11.4.4   # - FCM
   flutter_local_notifications: ^9.6.1
@@ -55,6 +55,8 @@ dependencies:
   shimmer: ^2.0.0
   hive: ^2.2.3
   shared_preferences: ^2.0.15
+  upgrader: ^8.2.0
+  in_app_review: ^2.0.8
 
 dev_dependencies:
   flutter_test:
